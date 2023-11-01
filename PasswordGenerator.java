@@ -10,6 +10,7 @@ public class PasswordGenerator {
     }
 
     static String generatePassword(int len) {
+        
         String capitalChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String smallChars = "abcdefghijklmnopqrstuvwxyz";
         String numbers = "0123456789";
